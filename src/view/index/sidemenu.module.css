@@ -1,26 +1,24 @@
-.sidenav{
-    float: left;
+.sidenav {
+  float: left;
+  height: 100%;
+  background-color: aliceblue;
 }
 
-.sidenav ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
-    height: 100%;
-    position: fixed;
-    overflow: auto;
+.sidenav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
 }
 
 .sidenav li a {
-    display: block;
-    color: dodgerblue;
-    padding:8px 16px;
-    text-decoration: none;
+  display: block;
+  color: dodgerblue;
+  padding: 8px 16px;
+  text-decoration: none;
 }
 
-.sidenav li a:hover{
-    background-color: dodgerblue;
-    color:white
+.sidenav li a:hover {
+  background-color: dodgerblue;
+  color: white;
 }
