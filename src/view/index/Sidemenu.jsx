@@ -9,17 +9,17 @@ export default class Sidemenu extends Component {
                     <a href="#">
                     <h3>side menu</h3>
                     </a>
-                    <a href="#">
-                      side menu item1
+                    <a href="/home/video">
+                      Video
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/home/sidemenu2">
                     side menu item2
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/sidemenu">
                     side menu item3
                     </a>
                   </li>
