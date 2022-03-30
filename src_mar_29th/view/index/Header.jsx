@@ -16,7 +16,7 @@ export default function header() {
             <Link to="/user">User Center</Link>
           </li>
           <li>
-            <Link to="/news">News</Link>
+            <Link to="/news">News</Link>           
           </li>
           <li>
             <Link to="/login">Login</Link>

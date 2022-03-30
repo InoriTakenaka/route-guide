@@ -14,8 +14,8 @@ export default class Sidemenu extends Component {
                     </a>
                   </li>
                   <li>
-                    <a href="/home/sidemenu2">
-                    side menu item2
+                    <a href="/home/stream">
+                    Stream
                     </a>
                   </li>
                   <li>

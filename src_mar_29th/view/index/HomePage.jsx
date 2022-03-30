@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Outlet } from "react-router-dom";
 import Sidemenu from "./Sidemenu";
 
 export default class HomePage extends Component {
@@ -8,7 +9,8 @@ export default class HomePage extends Component {
         <h3>HomePage</h3>
         <hr />
         <Sidemenu />
-        <div style={{ float: "left" }}></div>
+        {/* 5版本中用于放置子路由组件的容器，6版本中，这个容器的作用被<Outlet>组件所取代 */}
+        <Outlet />
       </div>
     );
   }

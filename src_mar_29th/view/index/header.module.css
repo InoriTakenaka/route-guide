@@ -1,0 +1,58 @@
+.navbar ul{
+    /* 移除ul的默认样式 删掉前面的那个点 */
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.navbar li {
+    /*
+    让li标签浮动 变成横向排列
+    */
+    float: left;
+}
+.navbar li a{
+    /*将a标签变成块级元素显示*/
+    display: inline-block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    /*删除a标签的下划线*/
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color:dodgerblue;
+}
+/*
+li.dropdownlist{
+    display: inline-block;
+}
+
+.dropdownitems{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdownitems a{
+    color:black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdownitems a:hover {
+    background-color: #000;
+    color:white;
+}
+
+.dropdownlist:hover .dropdownitems{
+    display: block;
+}
+*/
